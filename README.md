@@ -1,4 +1,9 @@
 # Smart Sorting: Transfer Learning for Identifying Rotten Fruits and Vegetables
+## 📬 Contact
+**Lokesh Rowthu**  
+📧 rowthulalokesh@gmail.com  
+🌐 LinkedIn: www.linkedin.com/in/lokesh-rowthula-743a2a294  
+📂 GitHub: https://github.com/lokeshvenky2
 
 ## 🔍 Overview
 **Smart Sorting** is a deep learning-based web application that classifies images of fruits and vegetables as **fresh** or **rotten** using **transfer learning with EfficientNetB0**. It aims to reduce food waste and assist in **automated quality control** for supermarkets, smart kitchens, and food processing industries.
@@ -95,4 +100,3 @@ To build a lightweight, intelligent, and real-time fruit & vegetable freshness d
 5. **Deployment**: If you want to deploy the app (e.g., on Heroku or Render), I can provide guidance.
 6. **Further Assistance**: Let me know if you need help with specific files (e.g., reviewing `app.py` or `train_model.py`) or additional features.
 
-If you have any specific modifications or additional sections you’d like to add to the README, please let me know! 🚀
