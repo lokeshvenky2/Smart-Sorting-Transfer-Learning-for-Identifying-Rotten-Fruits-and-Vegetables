@@ -1,7 +1,7 @@
 # Smart Sorting: Transfer Learning for Identifying Rotten Fruits and Vegetables
 ## 📬 Contact
-**Lokesh Rowthu**  
-📧 rowthulalokesh@gmail.com  
+**Lokesh Rowthula**  
+📧 E-mail id: rowthulalokesh@gmail.com  
 🌐 LinkedIn: www.linkedin.com/in/lokesh-rowthula-743a2a294  
 📂 GitHub: https://github.com/lokeshvenky2
 
