@@ -1,0 +1,149 @@
+/* Reset and layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #f4f4f4, #e8f0ff);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Headings */
+h1 {
+    color: #222;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* Upload section */
+.upload-section {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+/* Preview Image */
+#previewImage {
+    max-width: 100%;
+    max-height: 250px;
+    margin-top: 15px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #fafafa;
+}
+
+/* Predict Button */
+#predictButton {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#predictButton:hover:enabled {
+    background-color: #218838;
+}
+
+#predictButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Results Section */
+.prediction-results {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.prediction-results h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.prediction-results p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 6px 0;
+}
+
+/* Spinner */
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-left-color: #007bff;
+    animation: spin 0.8s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error Message */
+.error-message {
+    color: #d9534f;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    #predictButton {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .upload-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
